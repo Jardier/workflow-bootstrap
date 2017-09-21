@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>	
+	<link rel="stylesheet" href="static/stylesheets/vendors/bootstrap.min.css">		
+</head>
+<body >
+	<div class="container">
+		<h1>Criando um Carousel</h1>
+		
+		<div id="carrocel" class="carousel slide" data-ride="carousel" data-interval="2000">
+			<ol class="carousel-indicators">
+				<li data-target="#carrocel" data-slide-to="0"></li>
+				<li data-target="#carrocel" data-slide-to="1"></li>
+				<li data-target="#carrocel" data-slide-to="2"></li>
+				<li data-target="#carrocel" data-slide-to="3"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="item active">
+				 	<img src="https://unsplash.it/1280/720?random">
+				 	<div class="carousel-caption">
+				 		<h3>Slide Um</h3>
+				 		<p>Este slide é o primeiro de mais três</p>
+				 	</div>
+				</div>	
+				<div class="item">
+				 	<img src="https://unsplash.it/1279/720?random">
+				</div>
+				<div class="item">
+				 	<img src="https://unsplash.it/1278/720?random">
+				</div>	
+				<div class="item">
+				 	<img src="https://unsplash.it/1277/720?random">
+				</div>		
+			</div>	
+			<a class="left carousel-control" href="#carrocel" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+			</a>
+			<a class="right carousel-control" href="#carrocel" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+			</a>	
+		</div>	
+		
+	</div>	
+	<script type="text/javascript" src="static/javascripts/vendors/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="static/javascripts/vendors/bootstrap.min.js"></script>
+</body>
