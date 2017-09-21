@@ -1,0 +1,27 @@
+{
+  "name": "workflow-bootstrap",
+  "version": "1.0.0",
+  "description": "Certificação Bootstrap",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Jardier/workflow-bootstrap.git"
+  },
+  "author": "Jardier Bezarra Aires",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jardier/workflow-bootstrap/issues"
+  },
+  "homepage": "https://github.com/Jardier/workflow-bootstrap#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-sass": "^3.1.0"
+  }
+}
